@@ -17,3 +17,19 @@
     - how to define an interface in TS
     - how to write a vitest test
     - how node:test differs from vitest.
+
+
+**Phase 2: Persistence Layer**
+
+**Milestone:**
+
+1. Need to produce:
+    - a JSON-file backend that satisfies the repository contract already defined above.
+
+2. Already know: 
+    - How to define an interface in TS, and how to write a vitest test.
+
+3. Need to look up (specifically):
+    - how to implement a JSON-File backend.
+    - how to implement atomic writes.
+    - how to write a vitest test.
