@@ -34,8 +34,32 @@
     - how to implement atomic writes.
     - how to write a vitest test.
 
-Achievements: 
+## Achievements: 
     - Defined a shared Domain Interface.
     - Implemented two different Storage Backends (In-Memory and File).
     - Handled JSON Serialization and Date Hydration.
     - Implemented Atomic File Safety.
+    - Implemented test with idempotency (cleans up created file after each run) and utilizing a temporary OS directory.
+
+
+**Phase 3: The Command Parser**
+
+**Milestone:**
+
+1. Need to produce:
+    - a CLI where I can type node src/index.ts add "Buy milk" and it actually saves to the file.
+
+2. Already know: 
+    - How to define an interface in TS, how to handle JSON serialization and date hydration, implement atomicity in file system, and how to write a vitest test with idempotency and to run on temporary os.
+
+3. Need to look up (specifically):
+    - How to build a minimal argv → Command parser.
+    - How can it support: add, list, complete, delete, tag, untag, find.
+    - How to make each command to be a class with execute() returning a result.
+
+## Achievements: 
+    - Defined a shared Domain Interface.
+    - Implemented two different Storage Backends (In-Memory and File).
+    - Handled JSON Serialization and Date Hydration.
+    - Implemented Atomic File Safety.
+    - Implemented test with idempotency (cleans up created file after each run) and utilizing a temporary OS directory.
